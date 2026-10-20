@@ -134,7 +134,9 @@ class TelaDashboard extends StatelessWidget {
             //            com texto "Confirmado" e cor verde (Colors.green).
             // Desafio 6: Substituir o Container abaixo por um Card(elevation: 4).
             // ===================================================================
-            Stack(
+            
+// ------------------------ INICIO EXERCICIO 5 e 6 - Thiago Moraes ------------------
+	    Stack(
               clipBehavior: Clip.none,
               children: [
                 // TODO [Desafio 6]: Substituir o Container simples por um Card do Material com elevation: 4
@@ -175,6 +177,8 @@ class TelaDashboard extends StatelessWidget {
                     ),
                   ),
                 ),
+
+// ------------------------- FIM EXERCICIO 5 E 6 ------------------------
                 // TODO [Desafio 5]: Adicionar segundo Positioned no canto inferior esquerdo:
                 // Positioned(bottom: -8, left: -8, child: Container(color: Colors.green, child: Text('Confirmado')))
               ],
