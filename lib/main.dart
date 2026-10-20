@@ -1,4 +1,9 @@
+// ----------------------------- Desafio 7 - Thiago Moraes ---------------------------
+
 import 'package:flutter/material.dart';
+
+// ----------------------- FIM DESAFIO 7 ------------------------
+
 // TODO Desafio 7: Importar o widget customizado criado em lib/widgets/bloco_estatistica.dart
 import 'widgets/bloco_estatistica.dart';
 
