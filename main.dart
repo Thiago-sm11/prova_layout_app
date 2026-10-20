@@ -189,6 +189,8 @@ class TelaDashboard extends StatelessWidget {
             // texto e botão/ícone com MainAxisAlignment.spaceBetween.
             // ===================================================================
             // TODO [Desafio 3]: Implementar a seção "Últimos Registros" aqui
+
+//------------------------ INICIO DESAFIO 3 - Thiago Moraes ------------------
 		Container(
 		   padding: const EdgeInsets.all(16.0),
 		   decoration: BoxDecoration(
@@ -208,7 +210,8 @@ class TelaDashboard extends StatelessWidget {
 			     Icon(Icons.arrow_forward_ios, size: 16, color: Colors.grey),
 		            ],
 			 ),
-	        	),	
+	        	),
+//--------------------------Fim desafio 3 ---------------------	
             // ===================================================================
             // 📍 DESAFIO 4 (1,5 ponto):
             // Demonstrar/comprovar a ocorrência e correção de um erro de overflow
