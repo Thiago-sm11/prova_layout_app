@@ -92,8 +92,8 @@ class TelaDashboard extends StatelessWidget {
                     ),
                   ),
                 ),
+//~---------------- INICIO DESAFIO 1 - Thiago Moraes ----------------------
                 const SizedBox(width: 12.0),
-		const SizedBox(width: 12.0),
 		Expanded(
 		     child: Container(
 			padding: const EdgeInsets.all(16.0),
@@ -111,6 +111,7 @@ class TelaDashboard extends StatelessWidget {
 			    ),
 		          ),
 			),
+		// Desafio 1 Final
                 // TODO [Desafio 1]: Adicionar aqui o terceiro Card com Expanded (Ícone: Icons.camera_alt, '45', 'Fotos')
 
 //----------------------------------------------------------------------------------------------------------------
