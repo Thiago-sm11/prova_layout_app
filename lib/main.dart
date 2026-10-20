@@ -63,8 +63,12 @@ class TelaDashboard extends StatelessWidget {
             // Desafio 1: Adicionar o 3º Card (Icons.camera_alt, '45', 'Fotos') com Expanded.
             // Desafio 8: Refatorar esta seção usando GridView.count (grade 2x2).
             // ===================================================================
-            Row(
-              children: [
+             GridView.count(
+		crossAxisCount: 2,
+		crossAxisSpacing: 12,
+		mainAxisSpacing: 12,
+		shrinkWrap: true,
+		children: [
                 Expanded(
                   child: Container(
                     padding: const EdgeInsets.all(16.0),
