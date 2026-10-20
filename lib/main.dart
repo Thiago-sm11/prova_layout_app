@@ -63,29 +63,30 @@ class TelaDashboard extends StatelessWidget {
             // Desafio 1: Adicionar o 3º Card (Icons.camera_alt, '45', 'Fotos') com Expanded.
             // Desafio 8: Refatorar esta seção usando GridView.count (grade 2x2).
             // ===================================================================
-             GridView.count(
-		crossAxisCount: 2,
-		crossAxisSpacing: 12,
-		mainAxisSpacing: 12,
-		shrinkWrap: true,
-		children: [
-                Expanded(
-                  child: Container(
-                    padding: const EdgeInsets.all(16.0),
-                    decoration: BoxDecoration(
-                      color: Colors.teal.shade100,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
-                    child: Column(
-                      children: const [
-                        Icon(Icons.flutter_dash, size: 36, color: Colors.teal),
-                        SizedBox(height: 8),
-                        Text('124', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
-                        Text('Aves Vistas', style: TextStyle(fontSize: 12, color: Colors.grey)),
-                      ],
-                    ),
-                  ),
-                ),
+                GridView.count(
+  		     crossAxisCount: 2,
+  		     crossAxisSpacing: 12,
+  		     mainAxisSpacing: 12,
+  		     shrinkWrap: true,
+  		     physics: const NeverScrollableScrollPhysics(), // Evita erro de scroll
+  		     children: [
+   			 // 1º Card (Aves Vistas)
+    			Container(
+      			padding: const EdgeInsets.all(16.0),
+      			decoration: BoxDecoration(
+        		color: Colors.teal.shade100,
+       	 		borderRadius: BorderRadius.circular(12),
+      		      ),
+      		child: Column(
+        	children: const [
+          	Icon(Icons.flutter_dash, size: 36, color: Colors.teal),
+          	SizedBox(height: 8),
+          		Text('124', style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold)),
+          		Text('Aves Vistas', style: TextStyle(fontSize: 12, color: Colors.grey)),
+        	     ],
+                   ),
+                 ),
+		),
                 const SizedBox(width: 12.0),
                 Expanded(
                   child: Container(
