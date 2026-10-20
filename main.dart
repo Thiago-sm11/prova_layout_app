@@ -211,7 +211,7 @@ class TelaDashboard extends StatelessWidget {
 		            ],
 			 ),
 	        	),
-//--------------------------Fim desafio 3 ---------------------	
+//-------------------------- Fim desafio 3 ---------------------	
             // ===================================================================
             // 📍 DESAFIO 4 (1,5 ponto):
             // Demonstrar/comprovar a ocorrência e correção de um erro de overflow
